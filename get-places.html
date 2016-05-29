@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>goEazy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="mycss.css">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBln9OCwWAjj4aK5-5YeG2SRa73BIan-hc">
+        </script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script type="text/javascript" src="myscript.js"></script>
+    </head>
+    <body>
+        <div id = "header"><h1>Search Places</h1></div><hr>
+        <div class="container">
+            <div class="row">
+                <div id="map" class="col-xs-12 col-sm-6"></div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-4">
+                        <input type="text" placeholder="Latitude" name="srch-lat" id="srch-lat" class="inputs">
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <input type="text" placeholder="Longitude" name="srch-lon" id="srch-lon" class="inputs">
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <button id="srch"  name="srch" value="Search" class="btn-srch">Search</button>
+                    </div>
+                    <div id="city_name-div"></div>
+                </div>
+            </div>
+            <br>
+            <div id="itss" class="row row-content">
+                <div id="hospital-div" class="col-xs-12 col-sm-3">
+                    <button class="hsp-btn-srch" id="hsp-btn" value="hospital">HOSPITALS</button>
+                    <div id="hospital-div-desc"style="text-align:left; margin-left:15px;"></div>
+                </div>
+                <div id="school-div" class="col-xs-12 col-sm-3">
+                    
+                    <button class="scl-btn-srch" id="scl-btn" value="school">SCHOOLS</button>
+                    <div id="school-div-desc" style="text-align:left; margin-left:15px;"></div>
+                </div>
+                <div id="hotel-div" class="col-xs-12 col-sm-3">
+                    
+                    <button class="htl-btn-srch" id="htl-btn" value="hotel">HOTELS</button>
+                    <div id="hotel-div-desc"style="text-align:left; margin-left:15px;"></div>
+                </div>
+                <div id="park-div" class="col-xs-12 col-sm-3">
+                    <button class="prk-btn-srch" id="prk-btn" value="park">PARKS</button>
+                    <div id="park-div-desc"style="text-align:left; margin-left:15px;"></div>
+                </div>
+            </div>
+         </div>
+    </body>
+</html>

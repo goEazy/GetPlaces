@@ -1,0 +1,101 @@
+html, body{
+    background: #9999ff;
+    height: 100%;
+}
+#map{
+    border: 2px aliceblue solid;
+    border-radius: 10px;
+    height: 450px;
+    margin: 0px;
+}
+#city_name-div{
+    margin: 10px;
+}
+#header{
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    margin: 5px;
+    font-family: sans-serif;
+    color: azure;
+}
+.inputs{
+    margin: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-srch{
+    margin: 5px;
+    border: none;
+    height: 40px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: beige;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+
+}
+.htl-btn-srch{
+    width: 100%;
+    border-right: 3px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    height: 40px;
+    background-color: burlywood;
+    color: beige;
+    font-size: 18px;
+    border-radius: 16px;
+
+}
+.scl-btn-srch{
+    width: 100%;
+    border-right: 3px bold solid;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    height: 40px;
+    background-color: salmon;
+    color: beige;
+    font-size: 18px;
+    border-radius: 16px;
+
+}
+.prk-btn-srch{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: blueviolet;
+    color: beige;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+
+}
+.hsp-btn-srch{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    height: 40px;
+    background-color: red;
+    color: beige;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 16px;
+}
+#city_name-div{
+    color: azure;
+}
+#itss{
+    color: beige;
+    text-align: center;
+    font-size: 15px;
+}
